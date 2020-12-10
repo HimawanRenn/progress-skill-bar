@@ -110,16 +110,6 @@ body {
     color: white;
 }
 
-.footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    background-color: red;
-    color: white;
-    text-align: center;
-}
-
 svg {
     position: relative;
     width: 150px;
@@ -138,8 +128,8 @@ svg circle {
 }
 
 svg circle:nth-child(2) {
-    stroke-dasharray: 440;
-    stroke-dashoffset: 440;
+    stroke-dasharray: 220;
+    stroke-dashoffset: 220;
 }
 
 .card:nth-child(1) svg circle:nth-child(2) {
@@ -155,4 +145,14 @@ svg circle:nth-child(2) {
 .card:nth-child(3) svg circle:nth-child(2) {
     stroke-dashoffset: calc(440 - (440 * 60) / 100);
     stroke: #FFD700;
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
 }
